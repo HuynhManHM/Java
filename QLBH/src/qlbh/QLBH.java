@@ -29,7 +29,7 @@ public class QLBH {
         //Statement stmStatement=a.getconn().createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
         //bangluongDAL.them("NV009", 8, 4, 30, 1, 60000);
         //bangluongDAL.xoa("NV009");
-        bangluongDAL.getall();
+        nhanvienDAL.getall();
         //System.out.println("Lọc sinh viên\n");
         //bangluongDAL.getid("NV004");
     }
